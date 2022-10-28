@@ -1,3 +1,6 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+
 * {
   box-sizing: border-box;
 }
@@ -233,6 +236,13 @@ input:focus {
 #add-modal .modal__content {
   display: flex;
   flex-direction: column;
+}
+
+.delete {
+  float: right;
+  font-size: 2rem;
+  color: tomato;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) {
